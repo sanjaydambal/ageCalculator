@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    border: 1px solid #72582c;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.cover p{
+    font-family: cursive ;
+    font-size: 20px;
+    font-weight: 300;
+    color: #B21A3E;
+}
